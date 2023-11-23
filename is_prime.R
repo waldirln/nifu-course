@@ -6,12 +6,11 @@ is_prime <- function(x) {
 	return(TRUE)
 }
 
-# Test function
-library("testthat")
-
 test_that("Primes are correctly identified", {
 	expect_equal(
 	  sapply(1:5, is_prime),
 	  c(FALSE, FALSE, TRUE, FALSE, TRUE)
   )
 })
+
+# My allegiance is to the republic
