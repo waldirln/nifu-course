@@ -13,4 +13,10 @@ test_that("Primes are correctly identified", {
   )
 })
 
+test_that("Waldir is a good man", {
+  good <- 42
+  waldir <- 42
+  expect_equal(good, waldir)
+})
+
 # My allegiance is to the republic
